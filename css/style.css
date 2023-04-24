@@ -5,6 +5,7 @@
 }
 
 body {
+    /* position: relative; */
     color: #515867;
     width: 100%;
     font-size: 1rem;
@@ -13,6 +14,8 @@ body {
     line-height: normal;
     font-family: "Open Sans", sans-serif;
 }
+
+/* styling for sign up page and log In page */
 
 a {
     color: #1e266d;
@@ -25,7 +28,7 @@ nav, header, form, footer {
 
 nav {
     position: sticky;
-    top: 1px;
+    top: 0px;
     box-shadow: #dddada 1px 1px 0.5px;
     z-index: 1;
 }
@@ -307,4 +310,82 @@ footer .footer-flex div:nth-child(3) ul li a:hover {
 .copyright {
     text-align: center;
     font-size: 0.8rem;
+}
+
+/* styling for index.html */
+
+.index-header-flex {
+    justify-content: space-between;
+    /* align-items: center; */
+    /* overflow-x: visible; */
+}
+
+
+
+.index-header-section {
+    margin-bottom: 20rem;
+    padding: 11rem 0rem 10rem;
+}
+
+.index-header {
+    background: url(../images/header-background.png) no-repeat center center;
+    margin-top: -76px;
+    /* text-align: left; */
+}
+
+.header-nav {
+    background: transparent;
+}
+
+.left {
+    padding-right: 67px;
+}
+
+.right {
+    justify-content: end;
+    margin-right: -43px;
+}
+
+.index-header-flex .left h1 {
+    font-size: 3.25rem;
+    line-height: 4rem;
+    text-align: left;
+    padding-bottom: 0;
+    margin-bottom: 1.5rem;
+}
+
+.index-header-flex .left p {
+    margin-bottom: 2rem;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+
+.index-header-flex .left .left-sign-up {
+    margin: 0px 8px 0px 0px;
+    padding: 18px 42px;
+    background: #ff6c02;
+    color: #fff;
+    border: 1px solid #ff6c02;
+    border-radius: 50px;
+    font-size: 14px;
+}
+
+.index-header-flex .left .left-sign-up:hover {
+    background: #fff;
+    color: #ff6c02;
+}
+
+.index-header-flex .left .left-discover {
+    margin: 0px 8px 0px 0px;
+    padding: 18px 42px;
+    color: #ff6c02;
+    background: #fff;
+    border: 1px solid #ff6c02;
+    border-radius: 50px;
+    font-size: 14px;
+}
+
+.index-header-flex .left .left-discover:hover {
+    color: #fff;
+    background: #ff6c02;
 }
